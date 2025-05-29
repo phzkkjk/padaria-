@@ -6,25 +6,78 @@ html {
   width: 100%;
 }
 table{
-  border: 2px padding: 10px;  /* remover espaço nas bordas*/ 
-}
+  border: 2px padding 10px;  remover espaço nas bordas 
+
 th, td{
   border: 2px solid black; /* adicionar bordas as células */
-  padding: 5px;
+  /* padding 5px; */
 }
   table{
-  border: 2px padding: 10px;  /* remover espaço nas bordas*/ 
+  border: 2px padding 10px;  remover espaço nas bordas 
   }
   th, td{
-  border: 2px solid #000000; /* adicionar bordas as células */
-  padding: 5px;
+  border: 2px solid #000000; adicionar bordas as células
+  /* padding 5px; */
   }
 h3{
   color:#000000
 }
-p{
+{
+  /* color brown; */
+  /* font-family ; */
+  /* font-size ; */
+  /* font-weight ; */
+}
+
+.form-container {
+  max-width: 600px;
+  margin: 30px auto;
+  background-color: #fff5f8;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+  border: 1px solid #dcb;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form label {
+  margin-top: 15px;
+  font-weight: bold;
   color: brown;
-  font-family: ;
-  font-size: ;
-  font-weight: ;
+}
+ 
+form input,
+form select,
+form textarea {
+  margin-top: 5px;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  box-sizing: border-box;
+}
+
+form textarea {
+  resize: vertical;
+}
+
+form button {
+  margin-top: 25px;
+  padding: 12px;
+  font-size: 18px;
+  background-color: brown;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+form button:hover {
+  background-color: #a0522d;
 }
