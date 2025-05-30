@@ -7,7 +7,7 @@ html {
 }
 table{
   border: 2px padding 10px;  remover espaço nas bordas 
-
+}
 th, td{
   border: 2px solid black; /* adicionar bordas as células */
   /* padding 5px; */
