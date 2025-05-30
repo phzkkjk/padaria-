@@ -1,34 +1,4 @@
-body{
-  background-color: #F0E68C;
-}
-html {
-  height: 100%;
-  width: 100%;
-}
-table{
-  border: 2px padding 10px;  remover espaço nas bordas 
-}
-th, td{
-  border: 2px solid black; /* adicionar bordas as células */
-  /* padding 5px; */
-}
-  table{
-  border: 2px padding 10px;  remover espaço nas bordas 
-  }
-  th, td{
-  border: 2px solid #000000; adicionar bordas as células
-  /* padding 5px; */
-  }
-h3{
-  color:#000000
-}
-{
-  /* color brown; */
-  /* font-family ; */
-  /* font-size ; */
-  /* font-weight ; */
-}
-
+/* --- ESTILO PARA O FORMULÁRIO --- */
 .form-container {
   max-width: 600px;
   margin: 30px auto;
@@ -49,7 +19,6 @@ form label {
   font-weight: bold;
   color: brown;
 }
- 
 form input,
 form select,
 form textarea {
@@ -65,7 +34,6 @@ form textarea {
 form textarea {
   resize: vertical;
 }
-
 form button {
   margin-top: 25px;
   padding: 12px;
